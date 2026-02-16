@@ -384,7 +384,7 @@ static void disconnected_cb(struct bt_conn *conn, uint8_t reason)
 
 static void remote_capabilities_cb(struct bt_conn *conn,
 				   uint8_t status,
-				   struct bt_conn_le_cs_capabilities *params)
+				   struct bt_conn_le_cs_capabilities_v2 *params)
 {
 	ARG_UNUSED(conn);
 	ARG_UNUSED(params);
@@ -573,7 +573,7 @@ BT_CONN_CB_DEFINE(conn_cb) = {
 	.disconnected = disconnected_cb,
 	.le_param_req = le_param_req,
 	.security_changed = security_changed,
-	.le_cs_read_remote_capabilities_complete = remote_capabilities_cb,
+	.le_cs_read_remote_capabilities_complete_v2 = remote_capabilities_cb,
 	.le_cs_config_complete = config_create_cb,
 	.le_cs_security_enable_complete = security_enable_cb,
 	.le_cs_procedure_enable_complete = procedure_enable_cb,
