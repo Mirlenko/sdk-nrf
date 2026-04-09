@@ -343,8 +343,10 @@ Peripheral samples
 
     * ``start_tx_sweep_with_sleep`` shell command.
         It allows for running a TX sweep with silent periods between each frequency.
+    * ``start_tx_sweep_with_sleep_modulated`` shell command.
+        It allows for running a modulated TX sweep with silent periods between each frequency.
     * ``set_channel_sequence`` shell command.
-        It allows for setting a custom channel sequence for the ``start_tx_sweep_with_sleep`` command.
+        It allows for setting a custom channel sequence for the ``start_tx_sweep_with_sleep`` and ``start_tx_sweep_with_sleep_modulated`` commands.
     * ``print_channel_sequence`` shell command.
         It prints the currently configured channel sequence.
 

@@ -138,6 +138,9 @@ User interface
    * - start_tx_sweep_with_sleep
      - <tx_time> (us) <sleep_time> (us)
      - Start TX sweep with a controlled sleep cycle
+   * - start_modulated_tx_sweep_with_sleep
+     - <tx_time> (us) <sleep_time> (us)
+     - Start modulated TX sweep with a controlled sleep cycle
    * - toggle_dcdc_state
      - <state>
      - Toggle DC/DC converter state.
