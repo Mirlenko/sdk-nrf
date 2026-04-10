@@ -343,14 +343,11 @@ Peripheral samples
 
   * Added:
 
-    * ``start_tx_sweep_with_sleep`` shell command.
-        It allows for running a TX sweep with silent periods between each frequency.
-    * ``start_tx_sweep_with_sleep_modulated`` shell command.
-        It allows for running a modulated TX sweep with silent periods between each frequency.
-    * ``set_channel_sequence`` shell command.
-        It allows for setting a custom channel sequence for the ``start_tx_sweep_with_sleep`` and ``start_tx_sweep_with_sleep_modulated`` commands.
-    * ``print_channel_sequence`` shell command.
-        It prints the currently configured channel sequence.
+    * ``start_tx_sweep_with_sleep`` shell command that allows for running a TX sweep with silent periods between each frequency.
+    * ``start_tx_sweep_with_sleep_modulated`` shell command that allows for running a modulated TX sweep with silent periods between each frequency.
+    * ``set_channel_sequence`` shell command that allows for setting a custom channel sequence for the ``start_tx_sweep_with_sleep`` and ``start_tx_sweep_with_sleep_modulated`` commands.
+    * ``print_channel_sequence`` shell command that prints the currently configured channel sequence.
+    * ``set_channel_sequence_hopping_mode`` shell command that allows for setting the hopping mode for the channel sequence.
     * Support for pin debugging of radio events on nRF54L Series devices.
 
 PMIC samples
